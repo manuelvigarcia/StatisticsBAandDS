@@ -1,0 +1,37 @@
+Hypothesis testing and statistical significance
+We are checking if what we are "studying" is a valid hypothesis.
+
+We are going to accept that the hypothesis we are studying is a valid one if its probability is >95%. For this to hold, the z-value is 1.65: if the X critical we are using is further away from the Samples Means mean than 1.65 standard deviations, then it will be rejected with a confidence of 95% or more.
+
+
+Z-Test Assumptions
+	1- Sample is randomly selected
+	2- Observations are independent
+	3- The Standard Deviation is known OR the sample contains at least 30 observations
+
+
+Proportion test
+	You need to verify that:
+		- The number of observations that verify the hypothesis is greater than 10
+		- The number of observations that do not verify the hypothesis is greater than 10
+	else, you'll have to increase the number of observations in you sample until both conditions are met.
+
+	you'll have
+		p = proportion of the sample that verify the hypothesis
+		q = proportion of the sample that do not verify the hypothesis
+		Instead of the average or mean, for each sample of n observations you calculate the proportions p and q
+		Then, by the Central Limit Theorem,
+			the average of the population is goint to be equal to p
+			The Standard deviation of the population will be SQRT(p * q)
+			The standard deviation of the sampling distribution is, as per the Central Limit Theorem, the Standard Deviation of the populations / SQRT(n)
+
+Student's t-Distributions is used for very small samples. It has heavier tails, to compensate for the low number of observations in the sample. The larger the sample, the closer it gets to a normal distribution (with 30 size sample it is considered normal distribution). 
+The t-distribution is not describing the population, it describes the sample.
+	- the population's standard deviation is unknown, AND
+	- The sample size is small (<30)
+
+T-Test
+mean is the Hypothesis value
+The Stdev is calculated for the sample.
+We calculate also the mean of the sample.
+The formula for the value is: (sample's average - expected average of the population) / (Sample's stdev / SQRT(number of observations))
