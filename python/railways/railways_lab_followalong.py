@@ -53,7 +53,6 @@ import pandas as pd
 from pandas.api.types import CategoricalDtype
 import matplotlib.pyplot as plt
 import seaborn as sns
-import numpy as np
 
 print("Load data . . .")
 train = pd.read_csv('train_ticket_data.csv',
@@ -202,6 +201,9 @@ ax[0].bar(
 )
 ax[0].set_title("Price by Train Type")
 ax[0].set_ylabel("Price (Euro)")
+
+# Average duration by vehicle category.
+
 ax[1].bar(
     x=train_summary.index,
     height=train_summary['average_duration'],
@@ -211,4 +213,66 @@ ax[1].set_title("Trip Duration by Train Type")
 ax[1].set_ylabel("Trip Duration (Hours)")
 plt.show()
 
-# Average duration by vehicle category.
+#Heat map
+# Build a heatmap of average price with day of week as columns and time of day as rows.
+# Use it to determine which days and departure times have the lowest prices.
+# Then, export the summary table used to build the heatmap to a flat file format of your choice.
+# This will serve as a prototype for our designers to start building the customer help page.
+
+# Heatmap data
+heatmap = train.pivot_table(index='departure_hour',
+                            columns='departure_dayofweek',
+                            values='price',
+                            aggfunc='mean',
+                            observed=False
+                            )
+print(heatmap)
+
+heatmap.style.background_gradient("RdYlGn_r", axis=None)
+
+
+#heatmap.to_csv("price_heatmap.csv")
+
+sns.heatmap(data=heatmap,annot=True,fmt=".1f",cmap="RdYlGn_r")
+#sns.heatmap(data=heatmap,annot=True,fmt=".1f",cmap="viridis")
+#sns.heatmap(data=heatmap,annot=True,fmt=".1f",cmap="coolwarm")
+#heatmap.to_excel("price_heatmap.xlsx")
+plt.show()
+
+# heat map per origin
+
+heatmap_madrid = train[train['origin'] == 'MADRID'].pivot_table(index='departure_hour',
+                            columns='departure_dayofweek',
+                            values='price',
+                            aggfunc='mean',
+                            observed=False
+                            )
+sns.heatmap(data=heatmap_madrid,annot=True,fmt=".1f",cmap="RdYlGn_r")
+plt.show()
+
+heatmap_barcelona = train[train['origin'] == 'BARCELONA'].pivot_table(index='departure_hour',
+                            columns='departure_dayofweek',
+                            values='price',
+                            aggfunc='mean',
+                            observed=False
+                            )
+sns.heatmap(data=heatmap_barcelona,annot=True,fmt=".1f",cmap="RdYlGn_r")
+plt.show()
+
+heatmap_highspeed = train[train['vehicle_category'] == 'High-Speed'].pivot_table(index='departure_hour',
+                            columns='departure_dayofweek',
+                            values='price',
+                            aggfunc='mean',
+                            observed=False
+                            )
+sns.heatmap(data=heatmap_highspeed,annot=True,fmt=".1f",cmap="RdYlGn_r")
+plt.show()
+
+heatmap_standard = train[train['vehicle_category'] == 'Standard'].pivot_table(index='departure_hour',
+                            columns='departure_dayofweek',
+                            values='price',
+                            aggfunc='mean',
+                            observed=False
+                            )
+sns.heatmap(data=heatmap_standard,annot=True,fmt=".1f",cmap="RdYlGn_r")
+plt.show()
