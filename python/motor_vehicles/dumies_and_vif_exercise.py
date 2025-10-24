@@ -141,8 +141,9 @@ print(data_preprocessed.head(10))
 # Calculate the variance inflation factors for all variables contained in data_preprocessed. Point any strange observation
 ## Part 1
 vif3 = pd.DataFrame()
-data_vars_numeric = data_preprocessed.select_dtypes(include=['number'])
+data_vars_numeric = data_preprocessed #.select_dtypes(include=['number'])
 vif3["Features"] = data_vars_numeric.columns
+print(type(data_vars_numeric.values))
 vif3["VIF"] = [variance_inflation_factor(data_vars_numeric.values, i) for i in range(data_vars_numeric.shape[1])]
 print(vif3)
 
