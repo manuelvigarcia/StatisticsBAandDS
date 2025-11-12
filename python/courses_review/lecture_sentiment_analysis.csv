@@ -1,0 +1,170 @@
+lecture_name,count,mean
+Case Study,13,5.0
+Azure Assignment,10,5.0
+Authority,5,5.0
+Building a Cash Flow Statement in Practice,6,5.0
+Definitions and Applications,21,5.0
+Dimensions,29,5.0
+ESG Investing vs Fiduciary Duties,7,5.0
+Converting between Timezones with pandas,22,5.0
+Completing the Dataset:,24,5.0
+Hyperparameter tuning using GridSearchCV,7,5.0
+Stacked Column Chart,15,5.0
+The Arbitrage Principle,12,5.0
+Tableau Analysis: Transportation Expense vs Probability,13,5.0
+The Briefcase Method,5,5.0
+The Different Asset Management Investment Vehicles,12,5.0
+Working with Text Files - Conclusion,5,5.0
+SQL syntax,6,5.0
+Project management terminology,16,5.0
+SQL Temporary Tables - Extra Features,6,5.0
+Part IV - Data Visualization,11,5.0
+Why cryptocurrencies are the next logical step in monetary evolution,12,5.0
+Yield Measures (Conversion),7,5.0
+Calculating and Interpreting Profitability Ratios,35,4.9714285714285715
+Replacing the Missing Values in the DataFrame,33,4.96969696969697
+Random Dataset: Classification,32,4.96875
+Short-term Non-Bank Funding Sources,28,4.964285714285714
+Major Interrelationships between the Financial Statements,28,4.964285714285714
+The YouTube Dataset: Changing the priors,23,4.956521739130435
+Using data to improve your business processes,22,4.954545454545454
+Types of Equity - Practical Example,110,4.954545454545454
+Calculating Cash Flows and Completing the Model & Congratulations!,61,4.950819672131147
+Equity Valuation Models-Strengths and Weaknesses,19,4.947368421052632
+Company Analysis (Elements),18,4.944444444444445
+Bar Chart - Introduction - General Theory and Dataset,72,4.944444444444445
+Splitting the data into train and test and rescaling,34,4.9411764705882355
+Indexing,34,4.9411764705882355
+Coercion rules in R,66,4.9393939393939394
+Cost of Equity,16,4.9375
+Sensitivity analysis,16,4.9375
+Visualizing DCF: Understanding financial projections through charts,15,4.933333333333334
+Intro to finance,214,4.929906542056075
+Common Adjustments to the Financial Statements,14,4.928571428571429
+The Python Documentation,179,4.927374301675978
+The YouTube Dataset: Creating the data frame,55,4.927272727272728
+Problem 1: Task,41,4.926829268292683
+Mock Interview 5,54,4.925925925925926
+Risk Management Considerations,13,4.923076923076923
+Adding totals and subtotals,124,4.919354838709677
+Tree Pruning: Dealing with Overfitting,49,4.918367346938775
+Congratulations!,24,4.916666666666667
+PARTITION BY vs GROUP BY,12,4.916666666666667
+Choosing a target customer group,12,4.916666666666667
+Creating an output structure of the FMCG model,276,4.913043478260869
+PRINT function,287,4.912891986062718
+Strings,183,4.912568306010929
+Data Laws & Regulations,11,4.909090909090909
+The Importance of Inventory Analysis,11,4.909090909090909
+The CASE Statement,55,4.909090909090909
+Scraping JavaScript,11,4.909090909090909
+Kaggle Profile,55,4.909090909090909
+Filled Map,42,4.904761904761905
+End-to-end process mapping (part 2),62,4.903225806451613
+How to set up the A/B test,40,4.9
+Types of Pension Plans,10,4.9
+Private Equity,10,4.9
+When to use Machine Learning vs. Deep Learning,40,4.9
+Insert Hyperlinks into Excel Spreadsheets,828,4.89975845410628
+Restarting the Kernel,316,4.89873417721519
+Pros and Cons,19,4.894736842105263
+Databases vs spreadsheets,275,4.8945454545454545
+The Conceptual Framework for Financial Reporting (Part 2),28,4.892857142857143
+Role Level Security,18,4.888888888888889
+Porter's five forces in practice,9,4.888888888888889
+Other Types of Bonds,9,4.888888888888889
+Using an Index in pandas,70,4.885714285714286
+Remove Columns,51,4.882352941176471
+Why do we Need each of these Disciplines?,1321,4.880393641180923
+First Data Model,181,4.878453038674033
+What ChatGPT is and is not,337,4.8753709198813056
+Prescriptive analytics,8,4.875
+First Regression in Excel,32,4.875
+ML for Data products,23,4.869565217391305
+Why is Linear Algebra Useful,197,4.868020304568528
+The QQ Plot,37,4.864864864864865
+Monte Carlo: Euler Discretization - Part II,7,4.857142857142857
+The Asset Management Division,35,4.857142857142857
+Predicting on New Data,14,4.857142857142857
+Analytics Activation in Consumer-Driven Marketing,20,4.85
+Problem 5: Organizing Charts 1-4 into a Beautiful Dashboard,33,4.848484848484849
+The ETL Process,112,4.848214285714286
+Dispelling Common Misconceptions,417,4.84652278177458
+Calculating Opex and Depreciation and Amortization,26,4.846153846153846
+Practical Example - Descriptive Statistics,351,4.84045584045584
+Intermarket Analysis,31,4.838709677419355
+What kind of project,37,4.837837837837838
+Clearinghouses and Custodians,6,4.833333333333333
+The Curse of Dimensionality,18,4.833333333333333
+The Production Function,6,4.833333333333333
+Making predictions with the linear regression,111,4.828828828828829
+Measures Table,33,4.818181818181818
+Principles of Importing Data in Python,11,4.818181818181818
+Learn How to Create a Database,82,4.817073170731708
+Introduction to JOINs,49,4.816326530612245
+Defining key questions for the customer churn analysis,16,4.8125
+Dependent variables and independent variables,32,4.8125
+This is how the report can be used in practice by high-level executives,165,4.8121212121212125
+Bridge Chart,171,4.8011695906432745
+How to ask for funding,20,4.8
+Practical Example (part 4),5,4.8
+Working with Python Strings at the Next Level,10,4.8
+Heatmaps using Seaborn,35,4.8
+Syndicated Loans,5,4.8
+Curating the most important data insights,309,4.796116504854369
+Summary of Combinatorics,58,4.793103448275862
+Practical case study (part 2),29,4.793103448275862
+Excel Tips & Tricks Part 4,52,4.769230769230769
+Describing Data,13,4.769230769230769
+How to Remain Calm,26,4.769230769230769
+Why you and your company must embrace AI,417,4.767386091127098
+Calculation Groups,12,4.75
+Bonus Content: Star Storytelling Technique,11,4.7272727272727275
+Using data for good,98,4.724489795918367
+FV and PV Of Unequal Cash Flows,29,4.724137931034483
+F1 to F12 - Using Excel's Function Keys,76,4.723684210526316
+Farewell,46,4.717391304347826
+Crowdsourcing Labeled Data,7,4.714285714285714
+Standardizing Segmentation Data,21,4.714285714285714
+Smart Narrative,7,4.714285714285714
+Correlation vs. Causation,17,4.705882352941177
+ResNet - revolution of depth,10,4.7
+Course Challenge,13,4.6923076923076925
+np.savetxt(),12,4.666666666666667
+N-parameter gradient descent,39,4.666666666666667
+How to build a milestone table and its uses,6,4.666666666666667
+Storing and exporting the data in a structured form,6,4.666666666666667
+Conclusion,141,4.659574468085107
+Workspaces,49,4.653061224489796
+Branching,140,4.642857142857143
+Dashboard in Tableau - Interpretation,28,4.642857142857143
+R-Squared,19,4.631578947368421
+XHTML and code style,21,4.619047619047619
+Accounting Warning Signs,5,4.6
+Finding project ideas,17,4.588235294117647
+Importing and Organizing Data in Python - Part I,19,4.578947368421052
+Practical Example - Hypothesis Testing,121,4.570247933884297
+Interpretation of the Data Analytics Fashion Story,9,4.555555555555555
+Calculating expected loss,9,4.555555555555555
+Import counters (Part II),30,4.533333333333333
+Non-NN approaches,15,4.533333333333333
+Reading Data,15,4.533333333333333
+Probability in Data Science,43,4.511627906976744
+Recall and Precision,28,4.5
+Training the Random Forest,12,4.5
+Business Case - A Look Into the Automobile Industry,10,4.5
+Create your own presentation baseline,11,4.454545454545454
+Interactive filters - fix,61,4.442622950819672
+Working with Anonymous (Lambda) Functions,14,4.428571428571429
+Early stopping - motivation and types,12,4.416666666666667
+A Few Comments on Using .loc[] and .iloc[],57,4.385964912280702
+Real World Business Problems,8,4.375
+Analysis of the Training and Testing Times for the Classifier and Its Accuracy,11,4.363636363636363
+Making an effective analysis plan,25,4.32
+Behavioral Finance,5,4.2
+"Task Four, Part 3",22,4.090909090909091
+Blockchain for Business - conclusion,7,4.0
+What to do to improve even further,7,4.0
+Quantile Difference Tests,6,4.0
+Embedded methods,7,3.7142857142857144
+When to use NMF,5,3.6
